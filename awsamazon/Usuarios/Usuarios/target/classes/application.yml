@@ -1,0 +1,25 @@
+cloud:
+  aws:
+    credentials:
+      access-key: AKIAR6XEY346JWRYYBXS
+      secret-key: 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
+    region:
+      static: us-east-1
+    stack:
+      auto: false
+
+application:
+  bucket:
+    name: demospringboots3userbucket
+
+
+spring:
+  servlet:
+    multipart:
+      enabled: true
+      file-size-threshold: 2MB
+      max-file-size: 20MB
+      max-request-size: 50MB
+
+server:
+  port: 9095
